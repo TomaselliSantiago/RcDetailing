@@ -133,7 +133,7 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: grey;
+    background-color: blue;
     height: 390px;}
 .nosotros{
     height: 350px;
