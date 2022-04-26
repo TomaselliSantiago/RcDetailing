@@ -130,10 +130,11 @@ table{
     flex-wrap: wrap;}
     /* Footer */
 footer{
+    color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: blue;
+    background-color: grey;
     height: 390px;}
 .nosotros{
     height: 350px;
@@ -268,6 +269,9 @@ footer{
 }
 .txtLGrids{
     grid-area: txtL;
+}
+footer p{
+    color: black;
 }
 
 @media (max-width:360px) {
