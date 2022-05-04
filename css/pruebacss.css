@@ -1,2 +1,4 @@
-p {
-  color: blue; }
+.card {
+  font-size: 20px; }
+  .card img {
+    width: 50%; }
