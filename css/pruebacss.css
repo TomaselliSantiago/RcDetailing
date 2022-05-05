@@ -1,4 +1,40 @@
-.card {
-  font-size: 20px; }
-  .card img {
-    width: 50%; }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.Body {
+  background-image: radial-gradient(#0a0a35, #3b3838); }
+  .Body p {
+    color: lightslategray;
+    font-family: 'poppins';
+    font-style: italic; }
+
+img {
+  border-radius: 10%;
+  padding: 10px; }
+
+h1 {
+  background-image: url("../images/Logo.png");
+  background-position: center;
+  text-align: center;
+  font-family: 'poppins';
+  font-weight: bolder;
+  color: white;
+  font-style: normal; }
+
+a {
+  color: black;
+  font-weight: bold; }
+  a:hover {
+    color: #4598eb;
+    font-family: fantasy;
+    font-style: normal; }
+
+#RedesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center; }
+  #RedesSociales img {
+    border-radius: 10%; }
