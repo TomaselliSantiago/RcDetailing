@@ -15,12 +15,11 @@ img {
   padding: 10px; }
 
 h1 {
-  background-image: url("../images/Logo.png");
   background-position: center;
   text-align: center;
   font-family: 'poppins';
   font-weight: bolder;
-  color: white;
+  color: black;
   font-style: normal; }
 
 a {
