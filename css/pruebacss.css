@@ -60,3 +60,10 @@ h2 {
 
 .footer {
   background-color: grey; }
+
+.contacto {
+  width: 25%;
+  height: 350px;
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px; }
