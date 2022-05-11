@@ -4,11 +4,11 @@ nav {
   align-items: center; }
 
 .Body {
-  background-image: radial-gradient(#54F2F2, #FFFF); }
+  background-color: #FFFF; }
   .Body p {
-    color: lightslategray;
+    color: black;
     font-family: 'poppins';
-    font-style: italic; }
+    font-weight: bolder; }
 
 img {
   border-radius: 10%;
@@ -19,7 +19,7 @@ h1 {
   text-align: center;
   font-family: 'poppins';
   font-weight: bolder;
-  color: black;
+  color: #1f1f53;
   font-style: normal; }
 
 a {
@@ -37,3 +37,26 @@ a {
   text-align: center; }
   #RedesSociales img {
     border-radius: 10%; }
+
+.p-primario {
+  color: red; }
+
+.p-secundario {
+  color: green; }
+
+.p-terciario {
+  color: blue; }
+
+h2 {
+  background-color: blue;
+  font-size: 20px;
+  padding: 1rem; }
+
+.header, .footer {
+  background-color: lightblue;
+  font-size: 17px; }
+  .header img, .footer img {
+    background-color: black; }
+
+.footer {
+  background-color: grey; }

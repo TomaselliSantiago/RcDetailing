@@ -1,2 +1,39 @@
 @import "variables";
 @import "pages/principal";
+
+// mapas
+$colores: ("primario":red, "secundario": green, "terciario":blue);
+
+@each $nombre, $color in $colores{
+    .p-#{$nombre}{
+        color:$color
+}
+}
+
+// map-get
+$estilos:(
+    color: blue,
+    tFuente: 20px,
+    padding: 1rem,
+);
+
+h2{
+    background-color: map-get($estilos, color);
+    font-size: map-get($estilos, tFuente);
+    padding: map-get($estilos, padding)
+}
+
+// extend
+.header {
+    background-color: lightblue;
+    font-size: 17px;
+
+    img{
+        background-color: black;
+    }
+}
+
+.footer {
+    @extend .header;
+    background-color: grey;
+}

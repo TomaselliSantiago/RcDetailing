@@ -2,11 +2,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;}
-.Body{background-image: $colorfondo;
+.Body{background-color: $colorfondo;
     p{
-    color:lightslategray;
-    font-family: 'poppins'; 
-    font-style: italic;}
+    color:$colorletra;
+    font-family: 'poppins';
+    font-weight: bolder;}
 }
 img{
     border-radius: 10%;
