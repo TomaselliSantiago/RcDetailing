@@ -4,7 +4,7 @@ nav {
   align-items: center; }
 
 .Body {
-  background-color: #FFFF; }
+  background-color: radial-gradient(#ffffff, #9198e5); }
   .Body p {
     color: black;
     font-family: 'poppins';
