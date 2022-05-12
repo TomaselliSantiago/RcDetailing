@@ -4,7 +4,7 @@ nav {
   align-items: center; }
 
 .Body {
-  background-color: radial-gradient(#ffffff, #9198e5); }
+  background-image: radial-gradient(#9198e5, #ffffff); }
   .Body p {
     color: black;
     font-family: 'poppins';
@@ -62,6 +62,13 @@ h2 {
   background-color: grey; }
 
 .contacto {
+  width: 25%;
+  height: 350px;
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px; }
+
+.linksFooter {
   width: 25%;
   height: 350px;
   min-width: 300px;
