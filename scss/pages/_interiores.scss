@@ -1,0 +1,20 @@
+.Interior1{
+    height: 350px;
+    width:400px;
+    min-width: 300px;
+    padding: 3px;}
+.Interior2{
+    @extend .Interior1}
+.Interior3{
+    @extend .Interior1;}
+#VideoInterior{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;}
+.ImageInterior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+#txt{
+    text-align: center;
+    font-weight: bolder;}

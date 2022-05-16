@@ -1,0 +1,26 @@
+// mixin 
+@mixin Tamaños ($ancho, $alto){
+    width:$ancho;
+    height:$alto;
+}
+.contacto{
+    @include Tamaños (25%, 350px);
+    min-width: 300px;
+    padding: 10px;
+    margin: 10px;}
+    
+.linksFooter{
+    @include Tamaños (25%, 350px);
+    min-width: 300px;
+    padding: 10px;
+    margin: 10px;}
+.nosotros{
+    @include Tamaños (25%, 350px);
+    min-width: 300px;
+    padding: 10px;
+    margin: 10px;}
+.linksImportantes{
+    @include Tamaños (25%, 350px);
+    min-width: 300px;
+    padding: 10px;
+    margin: 10px;}

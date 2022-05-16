@@ -31,7 +31,7 @@ img{
 a:hover{color: rgb(69, 152, 235);
     font-family: fantasy;
     font-style: normal;}
-a{ 
+a{
     font-weight: bold;}
 iframe{border-radius: 10%;}
 h1{
@@ -39,7 +39,7 @@ h1{
     text-align: center;
     font-family:'poppins';
     font-weight: bolder;
-    color: white; 
+    color: white;
     font-style: normal;}
 .Peugeot{width: 30%;
     min-width: 300px;
@@ -139,7 +139,7 @@ table{
     min-width: 300px;
     padding: 10px;
     margin: 10px;}
-.linksImportantes{ 
+.linksImportantes{
     height: 350px;
     width: 25%;
     min-width: 300px;

@@ -1,0 +1,12 @@
+#VideoLavado{
+    display: flex;
+    justify-content: center;
+    padding-top:20px;}
+.Ds3{
+    width: 30%;
+    min-width: 300px;
+    padding: 3px;}
+.Peugeot307{
+    @extend .Ds3;}
+.Corolla{
+    @extend .Ds3;}

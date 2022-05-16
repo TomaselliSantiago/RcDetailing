@@ -1,3 +1,59 @@
+.contacto {
+  width: 25%;
+  height: 350px;
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px; }
+
+.linksFooter {
+  width: 25%;
+  height: 350px;
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px; }
+
+.nosotros {
+  width: 25%;
+  height: 350px;
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px; }
+
+.linksImportantes {
+  width: 25%;
+  height: 350px;
+  min-width: 300px;
+  padding: 10px;
+  margin: 10px; }
+
+.tabla {
+  display: flex;
+  justify-content: center; }
+
+table {
+  color: #4598eb;
+  background-color: grey;
+  width: 50%; }
+
+.Productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.Perfume, .Aplicador {
+  width: 50%;
+  min-width: 300px;
+  margin-left: 150px; }
+
+.Aplicador {
+  margin-left: 170px; }
+
+h2 {
+  color: #333232;
+  font-size: 20px;
+  padding: 1rem; }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -7,7 +63,7 @@ nav {
   background-image: radial-gradient(#9198e5, #ffffff); }
   .Body p {
     color: black;
-    font-family: 'poppins';
+    font-family: 'Oswald';
     font-weight: bolder; }
 
 img {
@@ -17,13 +73,14 @@ img {
 h1 {
   background-position: center;
   text-align: center;
-  font-family: 'poppins';
+  font-family: 'Oswald';
   font-weight: bolder;
   color: #1f1f53;
   font-style: normal; }
 
 a {
   color: black;
+  font-family: "Oswald";
   font-weight: bold; }
   a:hover {
     color: #4598eb;
@@ -38,39 +95,95 @@ a {
   #RedesSociales img {
     border-radius: 10%; }
 
-.p-primario {
-  color: red; }
+.Peugeot {
+  width: 30%;
+  min-width: 300px;
+  padding: 3px; }
 
-.p-secundario {
-  color: green; }
+.RenaultDuster {
+  width: 30%;
+  min-width: 300px;
+  padding: 3px; }
 
-.p-terciario {
-  color: blue; }
+.RenaultKangoo {
+  width: 420px;
+  min-width: 300px;
+  padding: 3px; }
 
-h2 {
-  background-color: blue;
-  font-size: 20px;
-  padding: 1rem; }
-
-.header, .footer {
-  background-color: lightblue;
-  font-size: 17px; }
-  .header img, .footer img {
-    background-color: black; }
-
-.footer {
-  background-color: grey; }
-
-.contacto {
-  width: 25%;
-  height: 350px;
+.Ubi {
+  width: 100%;
   min-width: 300px;
   padding: 10px;
   margin: 10px; }
 
-.linksFooter {
-  width: 25%;
-  height: 350px;
-  min-width: 300px;
+.Ig {
   padding: 10px;
-  margin: 10px; }
+  border-radius: 15%; }
+
+.Wpp {
+  padding: 10px;
+  border-radius: 20%; }
+
+.Fb {
+  padding: 10px;
+  border-radius: 20%; }
+
+.NosEncontras {
+  text-align: center; }
+
+#logo {
+  padding: 1%; }
+
+#RedesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center; }
+  #RedesSociales img {
+    border-radius: 10%; }
+
+span {
+  color: #131333; }
+
+ul {
+  list-style-type: none; }
+
+img {
+  border-radius: 10%;
+  padding: 10px; }
+
+iframe {
+  border-radius: 10%; }
+
+#VideoLavado {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px; }
+
+.Ds3, .Peugeot307, .Corolla {
+  width: 30%;
+  min-width: 300px;
+  padding: 3px; }
+
+.Interior1, .Interior2, .Interior3 {
+  height: 350px;
+  width: 400px;
+  min-width: 300px;
+  padding: 3px; }
+
+#VideoInterior {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; }
+
+.ImageInterior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+#txt {
+  text-align: center;
+  font-weight: bolder; }
+
+.LetraContacto {
+  color: lightslategray; }

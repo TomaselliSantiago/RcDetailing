@@ -1,0 +1,33 @@
+.tabla{
+    display: flex;
+    justify-content: center;}
+table{
+    color:rgb(69, 152, 235);
+    background-color: grey;
+    width: 50%;}
+.Productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;}
+    
+.Perfume{width: 50%;
+    min-width: 300px;
+    margin-left: 150px;}
+
+.Aplicador{
+    @extend .Perfume;
+    margin-left: 170px;}
+
+    // map-get
+$estilos:(
+    color: rgb(51, 50, 50),
+    tFuente: 20px,
+    padding: 1rem,
+);
+
+h2{
+    color: map-get($estilos, color);
+    font-size: map-get($estilos, tFuente);
+    padding: map-get($estilos, padding)
+}
