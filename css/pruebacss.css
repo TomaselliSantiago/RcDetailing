@@ -51,8 +51,12 @@ table {
 
 h2 {
   color: #333232;
-  font-size: 20px;
-  padding: 1rem; }
+  font-size: 30px;
+  padding: 1rem;
+  font-family: "Oswald";
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 nav {
   display: flex;
@@ -143,6 +147,7 @@ a {
     border-radius: 10%; }
 
 span {
+  font-family: "Oswald";
   color: #131333; }
 
 ul {
@@ -154,6 +159,9 @@ img {
 
 iframe {
   border-radius: 10%; }
+
+h6 {
+  font-family: "Oswald"; }
 
 #VideoLavado {
   display: flex;
@@ -186,4 +194,5 @@ iframe {
   font-weight: bolder; }
 
 .LetraContacto {
-  color: lightslategray; }
+  color: lightslategray;
+  font-family: "Oswald"; }
