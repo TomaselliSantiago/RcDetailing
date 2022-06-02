@@ -1,3 +1,8 @@
+*{
+    margin:0%;
+    padding:0%;
+    
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -45,7 +50,8 @@ a{
 .RenaultKangoo{width: 420px;
     min-width: 300px;
     padding: 3px;}
-.Ubi{width: 100%;
+.Ubi{
+    width: 100%;
     min-width: 300px;
     padding: 10px;
     margin: 10px;}
@@ -81,3 +87,6 @@ a{
     h6{
         font-family: "Oswald";
     }
+p{
+    padding-left: 5px;
+}

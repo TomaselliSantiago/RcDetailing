@@ -58,13 +58,17 @@ h2 {
   flex-direction: row;
   justify-content: center; }
 
+* {
+  margin: 0%;
+  padding: 0%; }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
 .Body {
-  background-image: radial-gradient(#9198e5, #ffffff); }
+  background-image: radial-gradient(#1297e4, #ffffff); }
   .Body p {
     color: black;
     font-family: 'Oswald';
@@ -162,6 +166,9 @@ iframe {
 
 h6 {
   font-family: "Oswald"; }
+
+p {
+  padding-left: 5px; }
 
 #VideoLavado {
   display: flex;
